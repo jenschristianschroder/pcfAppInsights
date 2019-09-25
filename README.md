@@ -16,11 +16,11 @@ Import the solution file into your environment.
 
 2. Click Code (experimental) and wait for the list to refresh.
 
-3. Select the ApplicationInsightsControl component and click Import.
+3. Select the pcfAppInsights component and click Import.
 
-4. Insert the ApplicationInsightsControl component on your screen.
+4. Insert the pcfAppInsights component on the screens you want to track.
 
-5. Select the ApplicationInsightsControl and open the advanced properties.
+5. Select the pcfAppInsights and open the advanced properties.
 
  
 
@@ -38,5 +38,5 @@ Set the following properties:
 **Track Screen Views**
 
 Once configured, Screen Views are tracked in Azure Application Insights automatically every time a screen loads.
-NOTE: If using Track Event or Track Error features, tt is required to Blank() Blank() both trackEvent and trackError before navigating to the next screen.
+
 
