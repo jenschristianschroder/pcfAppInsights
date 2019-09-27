@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="PowerAppsGuy" constructor="pcfAppInsights" version="0.0.1" display-name-key="pcfAppInsights" description-key="pcfAppInsights description" control-type="standard">
+    <property name="instrumentationKey" display-name-key="Instrumentation Key" description-key="Your Application Insights Instrumentation Key" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="trackScreenView" display-name-key="Track Screen View" description-key="Track Screen Views by entering the screen name" of-type="SingleLine.Text" usage="input" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>
