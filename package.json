@@ -15,6 +15,6 @@
   },
   "devDependencies": {
     "pcf-scripts": "^1",
-    "pcf-start": "^0"
+    "pcf-start": "^1"
   }
 }
